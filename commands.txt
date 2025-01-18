@@ -1,0 +1,23 @@
+Node.js
+
+npm init -y
+change package.json main to server.js (instead of index.js)
+
+dependency
+npm i express ejs express-ejs-layout (template language layout for html)
+
+npm i --save-dev nodemon (development dependency)
+
+scripts:
+	"start": "node server.js",
+	"devStart" : "nodemon server.js"
+
+"dependencies": {
+    "express": "^4.21.2",
+    "ejs" : "^3.1.10",
+    "express-ejs-layouts": "2.5.1"
+  },
+
+create server.js file
+
+npm run devStart
