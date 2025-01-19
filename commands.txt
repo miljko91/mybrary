@@ -21,3 +21,5 @@ scripts:
 create server.js file
 
 npm run devStart
+
+npm i body-parser #for parsing the input elements 
